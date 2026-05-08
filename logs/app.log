@@ -1,0 +1,28 @@
+2026-05-07 22:32:12,003 - database_operations - INFO - Audit log: user_created by user 1
+2026-05-07 22:32:12,003 - database_operations - INFO - User created: default_user (ID: 1)
+2026-05-07 22:32:27,190 - extraction_engines - INFO - Extracted 5 raw metrics
+2026-05-07 22:32:27,196 - extraction_engines - INFO - Extracted skills: {'technical': 16, 'domain': 11, 'soft': 4}
+2026-05-07 22:32:27,196 - extraction_engines - INFO - Extracted 20 achievements
+2026-05-07 22:32:27,201 - database_operations - INFO - Audit log: kb_created by user 1
+2026-05-07 22:32:27,201 - database_operations - INFO - Knowledge base saved for user 1 (KB ID: 1)
+2026-05-07 22:33:10,090 - optimization_engines - INFO - Detected role: Senior (scores: {'Functional': 9, 'Technical': 10, 'Senior': 23, 'Consultant': 0})
+2026-05-07 22:33:10,091 - optimization_engines - INFO - Extracted 15 JD keywords
+2026-05-07 22:33:10,093 - optimization_engines - INFO - Extracted 25 JD keywords
+2026-05-07 22:34:04,446 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 22:34:04,460 - api_clients - INFO - Ollama generation successful (54340ms)
+2026-05-07 22:34:04,461 - optimization_engines - INFO - Resume score: 61.7/100 | breakdown: {'real_metrics': 62.5, 'structure': 100, 'word_count': 78.375, 'skill_match': 32.7, 'role_alignment': 0.7}
+2026-05-07 22:34:04,465 - database_operations - INFO - Audit log: optimization_created by user 1
+2026-05-07 22:34:04,466 - database_operations - INFO - Optimization saved (ID: 1) for user 1
+2026-05-07 22:39:05,893 - extraction_engines - INFO - Extracted 2 raw metrics
+2026-05-07 22:39:05,898 - extraction_engines - INFO - Extracted skills: {'technical': 23, 'domain': 14, 'soft': 10}
+2026-05-07 22:39:05,898 - extraction_engines - INFO - Extracted 20 achievements
+2026-05-07 22:39:05,903 - database_operations - INFO - Audit log: kb_created by user 1
+2026-05-07 22:39:05,904 - database_operations - INFO - Knowledge base saved for user 1 (KB ID: 2)
+2026-05-07 22:39:20,581 - optimization_engines - INFO - Detected role: Senior (scores: {'Functional': 9, 'Technical': 10, 'Senior': 23, 'Consultant': 0})
+2026-05-07 22:39:20,583 - optimization_engines - INFO - Extracted 15 JD keywords
+2026-05-07 22:39:20,586 - optimization_engines - INFO - Extracted 25 JD keywords
+2026-05-07 22:40:10,893 - httpx - INFO - HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 22:40:10,895 - api_clients - INFO - Ollama generation successful (50300ms)
+2026-05-07 22:40:10,896 - optimization_engines - INFO - Resume score: 46.7/100 | breakdown: {'real_metrics': 28.6, 'structure': 100, 'word_count': 73.5, 'skill_match': 27.6, 'role_alignment': 0.7}
+2026-05-07 22:40:10,903 - database_operations - INFO - Audit log: optimization_created by user 1
+2026-05-07 22:40:10,903 - database_operations - INFO - Optimization saved (ID: 2) for user 1
